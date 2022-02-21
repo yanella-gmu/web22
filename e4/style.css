@@ -1,4 +1,4 @@
-
+/*
 body {
   background-color: #b13057;
   margin: 0;
@@ -46,4 +46,60 @@ div {
   .desktop-only {
     display: none;
   }
-  /*
+  */
+
+  body {
+    background-color: maroon;
+    margin: 0;
+    font-size: 27px;
+  }
+  p {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: pink;
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 5%;
+  }
+  #cursive {
+    font-family: 'Dancing Script', cursive;
+    text-transform: none;
+    font-size: 70px;
+    letter-spacing: normal;
+    line-height: 5%;
+  }
+
+  img {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#id{
+  display: block;
+  margin-top: 1em;
+
+}
+  div {
+    margin-top: 40vh;
+  }
+  .mobile-only {
+    display: none;
+  }
+
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: white;
+    }
+    p {
+      color: #b13057;
+    }
+    .mobile-only {
+      display: block;
+    }
+    .desktop-only {
+      display: none;
+    }
+    div {
+      margin-top: 20vh;
+    }
