@@ -1,0 +1,49 @@
+
+body {
+  background-color: #b13057;
+  margin: 0;
+  font-size: 32px;
+}
+p {
+  text-transform: uppercase;
+  font-family: 'Cormorant', serif;
+  font-weight: bold;
+  color: #b13057;
+  text-align: center;
+  line-height: .1em;
+}
+#cursive {
+  font-family: 'Dancing Script', cursive;
+  text-transform: none;
+  font-size: 50px;
+  line-height: .1em;
+}
+
+img {
+  display: block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  margin-top: 40vh;
+}
+.mobile-only {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #ffd5d5;
+  }
+  p {
+    color: #b13057;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+  /*
